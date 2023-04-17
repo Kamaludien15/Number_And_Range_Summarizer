@@ -8,9 +8,7 @@ public class App
     {
         NumberAndRangeSummarizer obj = new NumberAndRangeSummarizer();
         Collection<Integer> input = obj.collect(args[0]);
-        System.out.println(input);
         String s = obj.summarizeCollection(input);
         System.out.println(s);
-
     }
 }
