@@ -5,7 +5,8 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class NumberAndRangeSummarizer implements NumberRangeSummarizer {
+public class NumberAndRangeSummarizer implements NumberRangeSummarizer
+{
     public Collection<Integer> collect(String input)
     {
         List<Integer> numbers = new ArrayList<Integer>();
